@@ -6,5 +6,5 @@ for ele in range(len(l)):
 
     if l[ele] not in l_uniq:
         l_uniq.append(l[ele])
-
-print(l_uniq)
+print("Actual list elements: ",l)
+print("Unique elements in the list: ",l_uniq)
